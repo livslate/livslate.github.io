@@ -1,1 +1,22 @@
+/* Style all body text */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Class used twice */
+.section {
+  border: 1px solid green; /* box model: border */
+  margin: 10px;            /* box model: margin */
+  padding: 10px;           /* box model: padding */
+}
+
+/* ID selector */
+#title {
+  color: green;
+}
+
+/* Change link color on hover */
+a:hover {
+  color: orange;
+}
 
