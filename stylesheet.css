@@ -3,25 +3,25 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Class used twice */
 .section {
   border: 1px solid green; /* box model: border */
-  margin: 10px;            /* box model: margin */
+  margin: 10px auto;       /* box model: margin, centers the section */
   padding: 10px;           /* box model: padding */
+  max-width: 600px;        /* keeps section from stretching too wide */
 }
 
-/* ID selector */
 #title {
   color: green;
+  text-align: center;
 }
 
 img {
-  height: 8px;
-  width: 8px;
+  width: 300px;     /* smaller size */
+  height: auto;     /* keep proportions */
+  display: block;   /* allows centering */
+  margin: 0 auto;   /* center the image */
 }
 
-/* Change link color on hover */
 a:hover {
   color: orange;
 }
-
