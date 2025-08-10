@@ -16,8 +16,8 @@ body {
 }
 
 .img {
-  height: 50%;
-  width: 50%;
+  height: 8px;
+  width: 8px;
 }
 /* Change link color on hover */
 a:hover {
