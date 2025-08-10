@@ -15,10 +15,11 @@ body {
   color: green;
 }
 
-.img {
+img {
   height: 8px;
   width: 8px;
 }
+
 /* Change link color on hover */
 a:hover {
   color: orange;
