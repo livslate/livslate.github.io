@@ -15,6 +15,10 @@ body {
   color: green;
 }
 
+.img {
+  height: 50%;
+  width: 50%;
+}
 /* Change link color on hover */
 a:hover {
   color: orange;
